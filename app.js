@@ -6,13 +6,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
 
+app.get('/', (req, res) => { 
+    res.sendFile('./index.html', { root: __dirname})    
+});
+
 app.use(express.static(__dirname));
 
 
-app.get('/', (req, res) => { 
-    res.sendFile('./index.html', { root: __dirname})
-    console.log(__dirname)
+app.listen(3000, () => {
+    console.log('serving to port 3000')
 });
-
-app.listen(3000);
 
