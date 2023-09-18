@@ -7,7 +7,8 @@ const __dirname = dirname(__filename);
 const app = express();
 
 app.get('/', (req, res) => { 
-    res.sendFile('./index.html', { root: __dirname})    
+    res.sendFile('./index.html', { root: __dirname});
+    console.log('page refreshed')
 });
 
 app.use(express.static(__dirname));

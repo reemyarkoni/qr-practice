@@ -17,6 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+
 }
 
 .container {
@@ -27,19 +28,17 @@ body{
     background-color: var(--white);
     padding: 1.25rem;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
-    max-width: 375px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    max-width: 16rem;
     color: var(--dark-blue);
 
     img{
         max-width: 100%;
         border-radius: 1rem;
-        margin-bottom: 1rem;
         justify-content: center;
     }
 
     p{
-        font-size: 20px;
         max-width: 90%;
         color: var(--grayish-blue);
     }
