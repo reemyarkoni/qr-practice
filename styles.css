@@ -41,7 +41,8 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 17rem;
+    overflow: hidden;
     border-radius: 1rem;
     justify-content: center;
 }
