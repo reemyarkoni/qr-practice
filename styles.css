@@ -32,16 +32,18 @@ body{
     max-width: 16rem;
     color: var(--dark-blue);
 
-    img{
-        width: 17rem;
-        border-radius: 1rem;
-        justify-content: center;
-    }
+    
 
     p{
         max-width: 90%;
         color: var(--grayish-blue);
     }
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+    justify-content: center;
 }
 
 .attribution {
